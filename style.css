@@ -51,6 +51,9 @@ main {
   margin: 0 0 10px 0;
 }
 
+.self-introduction-box {
+  display: flex;
+}
 /* 画像領域 */
 .self-introduction-image {
   width: 30%; /* 7.横幅30％ */
@@ -105,10 +108,14 @@ footer {
   .nav-list {
     width: 100%;
   }
+  .self-introduction-box {
+    flex-direction :column;
+  }
   .self-introduction-image {
     width: 100%;
   }
   .self-introduction {
     width: 100%;
   }
+
 }
